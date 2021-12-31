@@ -1,12 +1,22 @@
-# Continuous Integration
-Continuous Integration (CI) with GitHub Actions and Python - Part 3: Code Coverage with Pytest
-- Continuous Integration (CI) with GitHub Actions and Python - Part 1: Linting. [Link](https://github.com/nekoemperor/CI-Linting)
-- Continuous Integration (CI) with GitHub Actions and Python - Part 2: Testing. [Link](https://github.com/nekoemperor/CI-Testing)
+# Docker & Containerisation
+Running docker container for a simple website.
 
-## Description
-This repo serves as a reference for the YouTube video found [here](https://www.youtube.com/watch?v=OOZtW3iF0is&list=PL0dOL8Z7pG3J6t1pqRQiNarBGY-ZnIJcq&index=3).
+## Table of contents
+* [About](#about)
+* [Demo](#demo)
+* [Installation](#installation)
 
-Demonstration of how to incorporate pytest code coverage into a Python project.
+## About
+In this repo, we are going to build a docker image that can run a simple website using official build of image [Nginx](https://hub.docker.com/_/nginx).
 
 
-The code coverage checking is handled by a custom GitHub Action [`pytester-cov`](https://github.com/marketplace/actions/pytester-cov).
+## Demo 
+Check out the demo:
+<p align="center"><img src="https://github.com/nekoemperor/spotify-ETL-job/blob/master/images/airflow-dbeaverasd.gif" width="768"  />
+
+## Installation
+* See the docker documentation for installation [docker](https://docs.docker.com/get-docker/)
+* Clone this repo
+* In the terminal, go to the root folder of this repo
+* run ```docker build -t web-docker:latest .``` 
+* then, ```docker run --name web-docker -p 9080:80 -d web-docker:latest ``` 

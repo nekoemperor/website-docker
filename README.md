@@ -12,7 +12,7 @@ In this repo, we are going to build a docker image that can run a simple website
 
 ## Demo 
 Check out the demo:
-<p align="center"><img src="https://github.com/nekoemperor/spotify-ETL-job/blob/master/images/airflow-dbeaverasd.gif" width="768"  />
+<p align="center"><img src="https://github.com/nekoemperor/website-docker/blob/master/images/web-docker.gif" width="768"  />
 
 ## Installation
 * See the docker documentation for installation [docker](https://docs.docker.com/get-docker/)
